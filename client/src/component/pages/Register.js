@@ -5,7 +5,7 @@ import AuthContext from '../../context/auth/authContext';
  const Register = (props) => {
   const authContext = useContext(AuthContext);
 
-  const {isAuthenticated} = authContext;
+  const {isAuthenticated,loading, setLoading, unsetLoading} = authContext;
    let initialState = {
     name:"",
     email:"",
@@ -62,7 +62,12 @@ if(isAuthenticated){
       </div>
      
      
-      <button type="submit" className="btn btn-primary">Submit</button>
+       <button type="submit" className="btn btn-primary">
+      {loading && (
+            <i class='fa fa-spinner fa-spin'></i>
+
+          )}
+      Submit</button>
     </form>
     </div></div>
         
