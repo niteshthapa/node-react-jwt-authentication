@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Demo of project
-Demo of this app [https://react-node-jwt-auth.herokuapp.com/](https://serene-dawn-02883.herokuapp.com/) to view it in the browser. When you submit a valid form check console for data. 
+Demo of this app [https://react-node-jwt-auth.herokuapp.com/](https://react-node-jwt-auth.herokuapp.com/) to view it in the browser. When you submit a valid form check console for data. 
 ## Demo
 In the project directory, you can run:
 
